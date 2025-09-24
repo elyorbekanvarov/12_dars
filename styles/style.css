@@ -827,7 +827,19 @@ form button:active {
     height: auto;
     display: block;
   }
-  form input, textarea {
-    max-width: 200px;
+}
+@media (max-width: 288px) {
+  .section7 form {
+    width: 100%;
+  }
+  .section7 form input, textarea{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+  }
+  .section7 form button {
+    padding: 10px;
   }
 }
